@@ -288,4 +288,9 @@
             }
         };
 
+const time = new Date();
+const year = time.getFullYear();
+
+document.getElementById("timestamp").innerHTML = `Copyright © 2010 - ${year}&nbsp;remoferraguto.com,&nbsp;All rights reserved.`;
+
 // execute above function
